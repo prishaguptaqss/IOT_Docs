@@ -6,30 +6,6 @@
 
 This guide provides a complete step-by-step process for setting up the **Hailo AI Software Suite**, compiling a YOLO model (ONNX → HAR → HEF), and deploying it on a **Raspberry Pi AI HAT (Hailo-8L)**.
 
----
-
-## 🧩 Table of Contents
-
-1. [Prerequisites Installation](#1-prerequisites-installation)  
-   - [1.1 System Update](#11-system-update-and-dependency-installation)  
-   - [1.2 Install Required Packages](#12-install-required-packages)  
-   - [1.3 Verify Python Installation](#13-verify-python-installation)
-2. [Hailo AI Software Suite Installation](#2-hailo-ai-software-suite-installation)  
-   - [2.1 Create Working Directory](#21-create-working-directory)  
-   - [2.2 Download Hailo Software Suite](#22-download-hailo-software-suite)  
-   - [2.3 Rename and Make Executable](#23-rename-and-make-executable)  
-   - [2.4 Run Installer](#24-run-installer)  
-   - [2.5 Post-Installation Steps](#25-post-installation-steps)  
-   - [2.6 Activate Virtual Environment](#26-activate-virtual-environment)  
-   - [2.7 Verify Installation](#27-verify-installation)
-3. [Model Compilation Workflow](#3-model-compilation-workflow)  
-   - [3.1 Prepare ONNX Model](#31-prepare-onnx-model)  
-   - [3.2 Parse ONNX → HAR](#32-step-1-parse-onnx--har)  
-   - [3.3 Optimize Model (Quantization)](#33-step-2-model-optimization-quantization)  
-   - [3.4 Compile to HEF](#34-step-3-compile-optimized-model--hef)
-4. [File Transfer to Raspberry Pi](#4-file-transfer-to-raspberry-pi)
-
----
 
 ## 1. Prerequisites Installation
 
@@ -260,13 +236,4 @@ scp -r images qss@192.168.1.213:~/
 
 ---
 
-**Author:** QSS AI Team
-**Version:** 1.0 — *October 2025*
-**Last Updated:** `15 Oct 2025`
 
-```
-
----
-
-Would you like me to include a **“Troubleshooting & Common Errors”** section next (e.g., parser issues, permission errors, missing dependencies) at the end of this README? It’s usually a good addition for developers.
-```
