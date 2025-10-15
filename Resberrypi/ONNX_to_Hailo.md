@@ -1,8 +1,6 @@
 
----
-
 ````markdown
-# 🚀 Hailo AI Software Suite & YOLO Model Deployment Guide (Raspberry Pi)
+#  Hailo AI Software Suite & YOLO Model Deployment Guide (Raspberry Pi)
 
 This guide provides a complete step-by-step process for setting up the **Hailo AI Software Suite**, compiling a YOLO model (ONNX → HAR → HEF), and deploying it on a **Raspberry Pi AI HAT (Hailo-8L)**.
 
@@ -103,12 +101,12 @@ sudo ./hailo8_ai_sw_suite_2025-10.run
   * **Hailo Model Zoo**
   * Required Python dependencies
 
-> ⚠️ **Expected Warnings (Safe to Ignore)**
+>  **Expected Warnings (Safe to Ignore)**
 >
 > * Node.js version warnings (for DFC Studio GUI only)
 > * GPU not found (CPU compilation is sufficient)
 
-🕒 Installation Time: *10–20 minutes (depending on internet speed)*
+ Installation Time: *10–20 minutes (depending on internet speed)*
 
 ### 2.5 Post-Installation Steps
 
@@ -228,7 +226,7 @@ scp -r images qss@192.168.1.213:~/
 
 ---
 
-## ✅ Summary
+##  Summary
 
 * Full setup of **Hailo AI Software Suite**
 * Conversion pipeline: **ONNX → HAR → HEF**
