@@ -92,7 +92,7 @@ The live camera feed will open, showing real-time object detections.
 
 * Ensure the Hailo AI Hat is correctly attached and recognized by the Raspberry Pi.
 * You can experiment with different `.hef` files to compare performance (`yolov5s.hef`, `yolov8s.hef`, `yolov8m.hef`, etc.).
-* To stop the script, press `Ctrl + C`.
+* To stop the script, press `Ctrl + C` or `q`.
 * If you encounter device errors, recheck your Hailo installation or camera connection.
 
 ---
